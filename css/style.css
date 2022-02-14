@@ -1,0 +1,965 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing:border-box;}
+body{
+	-webkit-text-size-adjust:none;
+  font-family:Verdana, 'Noto Sans TC','Microsoft JhengHei', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+img{ width: 100%; display: block; }
+.logo{
+  margin:0 auto;
+  width: 15%;
+}
+a{text-decoration: none;}
+.vision_pc{display: block;width: 35%;}
+h1,.vision_mb,.landingWord br{display: none;}
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/*landing*/
+.landingBg{
+  width: 100%;
+  height:100vh;
+  background: url(../images/landingBg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 5% 0;
+  overflow-y: auto;
+}
+.landingTitle{
+  width: 90%;
+  max-width: 650px;
+  margin: 1% auto;
+}
+.landingWordsBox{
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.landingWord{
+  font-size: 1.5em;
+  animation-duration: 1s;
+  line-height: 1.6;
+  opacity:0;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+}
+.b{ animation-delay: 0.3s;}
+.c{ animation-delay: 0.6s;}
+.d{ animation-delay: 0.9s; }
+.e{ animation-delay: 1.2s; }
+.f{ animation-delay: 1.5s; }
+.g{ animation-delay: 1.8s; }
+.h{ animation-delay: 2.1s; }
+.i{ animation-delay: 2.4s; }
+.j{ animation-delay: 2.7s;}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+.landingWord span{
+  color: #f72b57;
+  font-size: 1.8em;
+  font-style: italic;
+}
+.landingBtn{
+  width: 90%;
+  max-width: 200px;
+  margin: 2% auto;
+  cursor: pointer;
+  animation: zoomIn 1s infinite;
+  opacity:0;
+  animation-delay: 2.7s;
+}
+@keyframes zoomIn {
+  0% { 
+    transform: scale(0.8); 
+    opacity:0.8;
+  }
+  50% { 
+    transform: scale(1);
+    opacity:1; 
+  }
+  100% { 
+    transform: scale(0.8);
+    opacity:0.8; 
+  }
+}
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  /* flex-direction:column; */
+}
+.flexCenterLanding{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+/*landing end*/
+
+.visualArea{
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background: url(../images/visual.png) no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+}
+.visualTop{ padding-top: 20px; }
+.visualTopRight{ 
+  width: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  position: relative;
+}
+.visualTopRight div{
+  margin: 0 2%;
+  cursor: pointer;
+}
+.visualTopRight a{ color: #000000; }
+.visualTopRight a:hover,.visualTopRight div:hover{ color: #f23d6c; }
+.shareBox{
+  display: flex;
+  width: 12%;
+}
+.shareBox div{ width: 100%; }
+.visualBtm{
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%,0);
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 1200px;
+}
+.btn{
+  display: block;
+  width: 80%;
+  height: 225px;
+  margin: 0 2%;
+  cursor: pointer;
+  max-width: 500px;
+}
+.btn1{
+  background: url(../images/btn1.gif) no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+.btn1:hover{
+  background: url(../images/btn1.gif) no-repeat;
+  background-size: cover;
+  background-position: 0 -279px;
+}
+.btn2{
+  background: url(../images/btn2.gif) no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+}
+.btn2:hover{
+  background: url(../images/btn2.gif) no-repeat;
+  background-size: cover;
+  background-position: 0 -281px;
+}
+.gameArea{ 
+  background: url(../images/bg.png) #2fd4eb no-repeat;
+  background-size: contain;
+  position: relative;
+  height: auto; 
+}
+.gameTitle{
+  width: 20%;
+  padding-top: 3%;
+  margin: 0 auto;
+}
+.infoBox{
+  width: 90%;
+  max-width: 1000px;
+  margin: 2% auto;
+  display: flex;
+  justify-content: center;
+}
+.info{ 
+  width: 10%;
+  margin-right: 2%;
+}
+.infoWords{ 
+  width: 45%;
+  font-size: 1.4em;
+  line-height: 1.4; 
+  text-align: left;
+}
+.infoWords span{
+  color: #fceb1a;
+  font-size: 1.3em;
+  font-style: italic;
+  background-color: #f44e96;
+  border-radius: 50px;
+  padding: 6px 10px;
+  margin-top: 1%;
+  letter-spacing: 1px;
+  display: block;
+  text-align: center;
+}
+.gameBox{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gameBox div{
+  width: 25%;
+  cursor: pointer;
+}
+.prizeArea{ 
+  background: url(../images/bg3.png) #57eaff no-repeat;
+  background-size: contain;
+  position: relative;
+  height: auto; 
+  padding-bottom: 5%;
+}
+.prizeConTitle{ 
+  font-size: 2em;
+  color: #000000;
+  display: inline-block;
+  position: relative;
+  text-indent: 1.5em;
+  margin: 4% auto 2% auto;
+}
+.prizeConTitle::before{
+  content: "";
+  background: url(../images/icon.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-size: contain;
+}
+.prizeItem{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.prizeItem a{
+  display: block;
+  margin: 0 1%;
+  width: 20%;
+}
+
+.landingFooter{
+  margin: 2% auto;
+  font-size: 0.8em;
+  line-height: 1.4;
+  width: 90%;
+  max-width: 1300px;
+  color: #515151;
+
+}
+.mainFooter{
+  background: linear-gradient( to right , #fdc468 , #fbb1d7);
+  font-size: 0.8em;
+  line-height: 1.4;
+  width: 100%;
+  padding: 40px;
+}
+#gotop {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    width: 70px;
+    height: 70px;
+    z-index: 4;
+    background-image: url(../images/gotop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*注意事項*/
+.close {
+   /*display: none;*/ 
+  width: 30px;
+  height: 30px;
+  right: -2%;
+  top: -2%;
+  z-index: 1;
+  position: absolute;
+  cursor: pointer;
+}
+.closeplay {
+    width: 30px;
+    height: 30px;
+    right: -2%;
+    top: -2%;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+  }
+.maskBg{
+  display:none; 
+  position:fixed;
+  width:100%;
+  height:100%;
+  background:#000;
+  z-index:5;
+  top:0;
+  left:0;
+  opacity:0.8;
+}
+.playmaskBg{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:#000;
+    z-index:5;
+    top:0;
+    left:0;
+    opacity:0.8;
+  }
+.noticeArea,.infoArea,.appArea{
+  display:none; 
+  position: fixed;
+  width: 90%;
+  max-width: 950px;
+  background-color: #7d8fff;
+  z-index: 7;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;  
+  color: #fff;
+  border: 8px solid #ffda6b;
+  font-size: 1.1em;
+}
+.gameoverArea{ 
+  background-color: #7d8fff;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;  
+  color: #fff;
+  border: 8px solid #ffda6b;
+  font-size: 1.1em;
+  position: fixed;
+  width: 90%;
+  max-width: 400px;
+  line-height: 1.6; 
+}
+.dailyPrizeArea{
+  display: none;
+  background-color: #7d8fff;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;  
+  color: #fff;
+  border: 8px solid #ffda6b;
+  font-size: 1.1em;
+  position: fixed;
+  width: 90%;
+  max-width: 800px;
+  line-height: 1.6; 
+  height: 80vh;  
+}
+.gameoverArea .noticeTitle{ width: 50%; }
+.gameoverArea .boxBorder,.coffeeAreaH { height: auto;}
+.noticeArea ul,.infoArea ul,.appArea ul,.gameArea ul{
+  padding: 0 40px 20px 40px;
+  text-align: left;
+}
+.noticeArea ul li,.infoArea ul li,.appArea ul li,.gameArea ul li{
+  margin: 2% 0;
+  line-height: 1.6;
+}
+div.boxBorder::-webkit-scrollbar-track{
+  background-color: #F5F5F5;
+}
+div.boxBorder::-webkit-scrollbar{
+  width: 10px;
+  height: 3px;
+  background-color: #F5F5F5;
+}
+div.boxBorder::-webkit-scrollbar-thumb{
+  height: 3px;
+  background-color: #cccccc;
+}
+.boxBorder{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 70vh;
+}
+.noticeTitle{
+  width: 30%;
+  font-size: 2em;
+  margin: 3% auto 0 auto;
+}
+.noticeArea ul li a{
+  color: #f9f938;
+}
+/*注意事項 end*/
+
+
+/*活動辦法*/
+.eventWords{ color: #fceb1a;}
+/*活動辦法 end*/
+
+/*腦洞有多大*/
+.startBtn{
+  background-color: #f23d6c;
+  border-radius: 50px;
+  padding: 8px 12px;
+  filter: drop-shadow(0px 5px 0px #ffffff);
+  width: 200px;
+  margin: 2% auto 4% auto;
+  font-size: 1.2em;
+  cursor: pointer;
+  animation: startBtn 1.5s infinite;
+}
+@keyframes startBtn{
+  0%{ transform: scale(0.9); }
+  50%{ transform: scale(1); }
+  100%{ transform: scale(0.9); }
+}
+.startBtn a{ color: #ffffff; }
+.startBtn a:hover{ color: #ffda6b; }
+.startBtn:before,.startBtn:after{
+  font-family: "Font Awesome 5 Free";
+  content: "\f005";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight:900;
+}
+.startBtn:after{ padding-left: 3px; }
+/*腦洞有多大 end*/
+
+/*carousel*/
+.owl-carousel .carouselNavApp{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.owl-carousel .carouselNav_nextApp,.owl-carousel .carouselNav_prevApp{
+    border: 0px #fff dashed;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline:none;
+}
+.owl-carousel .carouselNav_nextApp{
+    background: url(../images/arrowRight.png) no-repeat center center;
+    background-size: contain;
+    right: -75%;
+  }
+.owl-carousel .carouselNav_prevApp {
+    background: url(../images/arrowLeft.png) no-repeat center center;
+    background-size: contain;
+    left: 25%;
+}
+/*carousel end*/
+
+/*startGame*/
+.gameStartArea{
+  position: fixed;
+  width: 90%;
+  max-width: 520px;
+  z-index: 6;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  color: #fff;
+  font-size: 1.1em;
+}
+.gameBg{
+  width: 80%;
+  height: auto;
+  background-color: #7d8fff;
+  background-size: contain;
+  background-position: center;
+  margin: 0px auto;
+  padding: 16px 0;
+}
+.gameKK{
+  width: 90%;
+  height: auto;
+  padding: 0px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.clue{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.clueWord{ width: 80%; }
+.clue span{ color: #ffda6b; }
+.clueBox{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 3% auto;
+}
+.clueBox div{
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 10px;
+  color: #000000;
+  margin: 4px 10px;
+  width: 40%;
+}
+.clueBox div.lyrics{
+  border-radius: 20px;
+  padding: 10px 16px;
+  width: 80%;
+  line-height: 1.4;
+}
+.clueBox div.kp{
+  background: rgba(0, 0, 0, 0);
+  width: 90%;
+}
+.answerBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #ffda6b;
+  border-radius: 50px;
+  padding: 8px 6px;
+}
+.answer{
+  width: 40px;
+  height: 40px;
+  margin: 0 2px;
+  background-color: #ffffff;
+  border: 2px solid #f44e96;
+  border-radius: 60%;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.guessCon{ margin: 6% auto 0 auto; }
+.guessCon p{
+  text-decoration: underline;
+  font-size: 1.1em;
+  margin-bottom: 5%;
+}
+.guessBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 570px;
+}
+.guessBox2{
+  display: block;
+}
+.guessBox2 div{ 
+    margin: 2% auto;
+    cursor: pointer;
+ }
+.guessWord{
+  background-color: #ffffff;
+  border-radius: 2px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000;
+  margin: 10px;
+  color: #000000;
+  font-size: 0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.btnBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3% auto 5% auto;
+}
+.btnBox div{
+  background-color: #f44e96;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: #ffffff;
+  filter: drop-shadow(0px 5px 0 #ffffff);
+  cursor: pointer;
+}
+.btnBox a{ color: #ffffff; }
+.where{
+  background-color: #ffda6b;
+  border-radius: 50px;
+  padding: 6px 12px;
+  color: #f44e96;
+  filter: drop-shadow(0px 5px 0 #ffffff);
+  width: 80%;
+  cursor: pointer;
+  margin: 15% auto 10% auto;
+}
+.btnBox div:hover{
+  background-color: #ffda6b;
+  color: #f44e96;
+}
+
+/*startGame end*/
+
+
+/*stepArea*/
+.stepBox{
+  width: 50%;
+  margin: 2% auto;
+  background-color: #ffda6b;
+  border-radius: 20px;
+  border: 6px solid #ef8f06;
+  padding: 16px;
+}
+.stepCon{  
+  width: 70%;
+  margin: 2% auto;
+  font-size: 1.1em;
+  line-height: 1.4;
+}
+.stepCon p{ text-align: left; }
+.stepWord{
+  color: #3853ad;
+  text-decoration: underline;
+  margin: 4px 0;
+}
+/*stepArea end*/
+
+/*game over*/
+.gameoverW{
+  color: #ffda6b;
+  font-size: 2em;
+  font-weight: 800;
+  line-height: 1.6;
+}
+.gameoverHeight{ height: auto; }
+/*game over end*/
+
+.wherePic{ 
+  width: 60%; 
+  margin: 0 auto;
+}
+
+
+/*coffee*/
+.coffeeArea{
+  position: fixed;
+  right: 20px;
+  bottom: 10%;
+  width: 80px;
+  height: 90px;
+  z-index: 1;
+  cursor: pointer;
+}
+.coffeeTitle{
+  color: #ffda6b;
+  margin-top: 5%;
+  font-size: 1.3em;
+  line-height: 1.2;
+}
+/*coffee end*/
+
+.dailyPrizeArea .boxBorder {
+    height: 76vh!important;
+}
+.dailyPrizeBox{ margin: 2% auto;}
+.dailyItem{
+  text-align: left;
+  width: 60%;
+  margin: 0 auto 3% auto;
+  max-width: 470px;
+}
+.dailyPrizeTitle{ 
+  width: 50%; 
+  max-width: 240px;
+  margin: 2% auto 0 auto;
+}
+.dailyItemName{ margin-bottom: 1%; }
+.date{
+  background-color: #f44e96;
+  border-radius: 14px;
+  padding: 4px 12px;
+  margin-right: .5em;
+}
+.quota{
+  color: #ffda6b;
+  font-weight: 800;
+  margin-left: .5em;
+}
+.dailyWinner{
+  color: #95f5fc;
+}
+/*winner list*/
+.winnerArea{ display: block; }
+.winnerTitle{
+  font-size: 1.6em;
+  text-decoration: underline;
+  color: #ffda6b;
+  margin: 3% auto 0 auto;
+}
+.winnerList{
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 2% 0;
+}
+.winnerCon{
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto 3% auto;
+  line-height: 1.4;
+  text-align: left;
+}
+.winnerItem{
+  width: 200px;
+  background-color: #f93a68;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  line-height: 2.4;
+  margin-right: 2%;
+}
+.winnerPrize{ width: 800px; }
+.ending{
+  width: 90%;
+  margin: 3% auto;
+  font-size: 1.2em;
+  line-height: 1.4;
+  max-width: 550px;
+  color: #57eaff;
+}
+.name{ color: #ffda6b;}
+.maskBg2{ display: block; }
+/*winner list end*/
+
+@media (min-width: 2000px) {
+  .landingTitle { 
+    max-width: 900px;
+    margin: 8% auto 1% auto;
+  }
+  .landingWord { font-size: 3.5em;}
+  .landingBtn { max-width: 500px;}
+  .landingFooter {
+    font-size: 1.8em;
+    max-width: 1700px;
+  }
+  .visualArea { height: 1800px;}
+  .fontSize{ font-size: 2em; }
+  .infoBox { max-width: 2000px;}
+  .prizeConTitle::before{ width: 70px; height: 70px; }
+  .stepBox { width: 90%;}
+  .close,.guessWord {
+    width: 70px;
+    height: 70px;
+    margin: 12px;
+  }
+  .startBtn { width: 370px;}
+  .owl-carousel .carouselNav_nextApp, .owl-carousel .carouselNav_prevApp {
+    width: 80px;
+    height: 80px;
+  }
+  .noticeArea, .infoArea, .appArea{ border: 14px solid #ffda6b }
+  .stepBox{ border: 12px solid #ef8f06; }
+  .noticeTitle,.dailyPrizeArea .noticeTitle { width: 40%;}
+  .gameStartArea { max-width: 1000px;}
+  .answer {
+    width: 80px;
+    height: 80px;
+    border: 4px solid #f44e96;
+  }
+  .gameBg{ padding: 46px 0; }
+  .gameStartArea{ font-size: 1.3em; }
+  .gameoverArea { max-width: 670px;}
+  .landingWordsBox ,.dailyPrizeArea{ max-width: 1400px;}
+  .landingWord span { font-size: 1.5em;}
+  .dailyItem {
+    width: 70%;
+    max-width: 950px;
+  }
+  .dailyPrizeTitle { max-width: 400px;}
+  #gotop {
+    right: 1.5%;
+    width: 100px;
+    height: 100px;
+  }
+  .coffeeArea {
+    width: calc(100vw / 15);
+    height: auto;
+  }
+  .closeplay {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .gameBg { width: 389px;}
+
+}
+
+@media (max-width: 1200px) {
+  .landingWord { font-size: 2.5em;}
+  .landingBtn { max-width: 220px;}
+  .landingFooter { font-size: 1.4em;}
+  .landingBg{ 
+    background: url(../images/landingBg_mb.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .landingWord { font-size: 1.5em;}
+  .landingWord span { font-size: 1.5em;}
+  .landingFooter { font-size: 1em;}
+  .logo {  width: 25%;}
+  .visualTopRight {
+    width: 55%;
+    font-size: 1.2em;
+  }
+  .btn { 
+    width:100%;
+    height: 18vw;
+  }
+  .infoWords { width: 60%;}
+  .btn:hover{ background-position:0 -22.9vw;}
+  .gameoverHeight { height: 50vh!important;}
+  #gotop { right: 2%;}
+}
+
+@media (max-width: 900px) {
+  .visualArea{
+    height: calc(100vw + 150px);
+    background: url(../images/visualM.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 0;
+  }
+  .stepBox { width: 70%;}
+}
+
+@media (max-width: 768px) {
+  .winnerList{ display: block; }
+  .winnerItem { width: 40%;}
+  .winnerPrize{ width: 100%; margin: 3% 0;}
+  .winnerList{ padding: 5% 0;}
+}
+
+@media (max-width: 480px) {
+  .landingBg{ 
+    justify-content: space-around;
+    padding-top: 5%;
+  }
+  .landingWord { font-size: 1.4em;}
+  .landingWord span { font-size: 1.2em;}
+  .landingBtn{ max-width: 200px; }
+  .landingFooter { font-size: 0.8em;}
+  .landingWord br,.infoBox{ display: block;}
+  .visualArea{ height: calc(100vw + 80px);}
+  .btn { height: calc(100vw / 4 - 30px);}
+  .visualTop { display: block;}
+  .visualTopRight {
+    width: 70%;
+    font-size: 1em;
+    margin: 3% auto;
+  }
+  .info {
+    width: 20%;
+    margin: 0 auto;
+  }
+  .infoWords{ 
+    width: 100%; 
+    font-size: 1.2em;
+  }
+  .infoWords span { 
+    font-size: 1.1em;
+    padding: 10px;    
+    letter-spacing: 0px;    
+    line-height: 1;
+  }
+  .gameTitle,.logo ,.gameBox div{ width: 40%;}
+  .prizeItem a{ 
+    width: 50%;
+    margin: 0;
+  }
+  .prizeConTitle {
+    font-size: 1.2em;
+    margin: 8% auto;
+  }
+  .prizeConTitle::before{
+    width: 25px;
+    height: 25px;
+  }
+  .shareBox { width: 20%;} 
+  .noticeTitle { width: 50%;}
+  .noticeArea ul, .infoArea ul { padding: 0 20px 20px 20px;}
+  .noticeArea, .infoArea{ font-size: 1em; }
+  .stepBox{ width: 100%; }
+  .stepCon,.dailyItem { width: 90%; }
+  .owl-carousel .carouselNav_prevApp{ left: 37%; }
+  .owl-carousel .carouselNav_nextApp{ right: -63%; }
+  .gameBg {
+    width: 83%;
+    height: auto;
+  }
+  .gameKK {
+    width: 95%;
+    padding: 0px 6px 10px 6px;
+    font-size: 0.9em;
+  }
+  .answerBox { 
+    margin-top: 17px;
+    padding: 6px;
+    border-radius: 10px;
+  }
+  .clueBox div {
+    padding: 6px;    
+    margin: 2px 6px;
+  }
+  .guessWord{ 
+    margin: 2px;
+    width: 26px;
+    height: 26px; 
+  }
+  .guessCon p {
+    font-size: 1em;
+    margin-bottom: 2%;
+  }
+  .guessCon { margin: 7% auto 0 auto;}
+  .gameoverArea .boxBorder { height: 70vh;}
+  .coffeeArea {
+    right: 10px;
+    bottom: 9%;
+    width: 70px;
+    height: 80px;
+  }
+  .gameoverArea .coffeeAreaH { height: auto;}
+  .guessWordBox{
+    width: 210px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+[v-cloak] {
+    display: none;
+  }

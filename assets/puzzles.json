@@ -1,0 +1,346 @@
+[
+    {
+        "id": 1,
+        "tips": [
+            "郭書瑤",
+            "禾浩辰",
+            "劉品言",
+            "馬志翔"
+        ],
+        "haystack": "熟范媽情友醫媽哼未六愛間之白線九還之來服上",
+        "needles": [
+            {
+                "word": "未",
+                "position": 8
+            },
+            {
+                "word": "來",
+                "position": 18
+            },
+            {
+                "word": "媽",
+                "position": 2
+            },
+            {
+                "word": "媽",
+                "position": 6
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tips": [
+            "溫昇豪",
+            "陳庭妮",
+            "劉冠廷",
+            "林柏宏"
+        ],
+        "haystack": "線海豚火角性轉淚豪的情瞬落阱金眼景陷神情人",
+        "needles": [
+            {
+                "word": "火",
+                "position": 3
+            },
+            {
+                "word": "神",
+                "position": 18
+            },
+            {
+                "word": "的",
+                "position": 9
+            },
+            {
+                "word": "眼",
+                "position": 15
+            },
+            {
+                "word": "淚",
+                "position": 7
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tips": [
+            "莊凱勛",
+            "溫貞菱",
+            "孫淑媚",
+            "初孟軒"
+        ],
+        "haystack": "代的書魔年少萌金初師陷橋人友時術上店天想火",
+        "needles": [
+            {
+                "word": "天",
+                "position": 18
+            },
+            {
+                "word": "橋",
+                "position": 11
+            },
+            {
+                "word": "上",
+                "position": 16
+            },
+            {
+                "word": "的",
+                "position": 1
+            },
+            {
+                "word": "魔",
+                "position": 3
+            },
+            {
+                "word": "術",
+                "position": 15
+            },
+            {
+                "word": "師",
+                "position": 9
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "tips": [
+            "陳意涵",
+            "林心如",
+            "邱澤",
+            "簡嫚書"
+        ],
+        "haystack": "那春業書創主英她星愛事些冒情險的們通公鳥打",
+        "needles": [
+            {
+                "word": "她",
+                "position": 7
+            },
+            {
+                "word": "們",
+                "position": 16
+            },
+            {
+                "word": "創",
+                "position": 4
+            },
+            {
+                "word": "業",
+                "position": 2
+            },
+            {
+                "word": "的",
+                "position": 15
+            },
+            {
+                "word": "那",
+                "position": 0
+            },
+            {
+                "word": "些",
+                "position": 11
+            },
+            {
+                "word": "鳥",
+                "position": 19
+            },
+            {
+                "word": "事",
+                "position": 10
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "tips": [
+            "謝盈萱",
+            "溫昇豪",
+            "藍葦華",
+            "楊麗音"
+        ],
+        "haystack": "萬福俗記頭轉美幸姊成念絕女彎安養生配男克巧",
+        "needles": [
+            {
+                "word": "俗",
+                "position": 2
+            },
+            {
+                "word": "女",
+                "position": 12
+            },
+            {
+                "word": "養",
+                "position": 15
+            },
+            {
+                "word": "成",
+                "position": 9
+            },
+            {
+                "word": "記",
+                "position": 3
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "tips": [
+            "林柏宏",
+            "李霈瑜",
+            "黃瀞怡",
+            "陳昊森"
+        ],
+        "haystack": "瑰齡大甘味命注瞬嫁福代氣時友愛債定玫男白后",
+        "needles": [
+            {
+                "word": "大",
+                "position": 2
+            },
+            {
+                "word": "債",
+                "position": 15
+            },
+            {
+                "word": "時",
+                "position": 12
+            },
+            {
+                "word": "代",
+                "position": 10
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "tips": [
+            "賀軍翔",
+            "邵雨薇",
+            "陳璽安",
+            "程雅晨"
+        ],
+        "haystack": "蒲海巡梁以使森雛蓉公薇結依對婚薔者林豚英天",
+        "needles": [
+            {
+                "word": "天",
+                "position": 20
+            },
+            {
+                "word": "巡",
+                "position": 2
+            },
+            {
+                "word": "者",
+                "position": 16
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "tips": [
+            "李國毅",
+            "李亦捷",
+            "邱昊奇",
+            "梁舒涵"
+        ],
+        "haystack": "敵闖過亮打植格好三愛財灌天火籃美廢來關球言",
+        "needles": [
+            {
+                "word": "廢",
+                "position": 16
+            },
+            {
+                "word": "財",
+                "position": 10
+            },
+            {
+                "word": "闖",
+                "position": 1
+            },
+            {
+                "word": "天",
+                "position": 12
+            },
+            {
+                "word": "關",
+                "position": 18
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "tips": [
+            "李銘順",
+            "柯叔元",
+            "游安順",
+            "苗可麗"
+        ],
+        "haystack": "熬力東做格人平傳公王門的安煎天工女町亂說傻",
+        "needles": [
+            {
+                "word": "做",
+                "position": 3
+            },
+            {
+                "word": "工",
+                "position": 15
+            },
+            {
+                "word": "的",
+                "position": 11
+            },
+            {
+                "word": "人",
+                "position": 5
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "tips": [
+            "鍾欣凌",
+            "張書偉",
+            "邱凱偉",
+            "王少偉"
+        ],
+        "haystack": "麼前的戀婆眼覺願真怎金我那民麼婆酒黑可意愛",
+        "needles": [
+            {
+                "word": "我",
+                "position": 11
+            },
+            {
+                "word": "的",
+                "position": 2
+            },
+            {
+                "word": "婆",
+                "position": 15
+            },
+            {
+                "word": "婆",
+                "position": 4
+            },
+            {
+                "word": "怎",
+                "position": 9
+            },
+            {
+                "word": "麼",
+                "position": 0
+            },
+            {
+                "word": "那",
+                "position": 12
+            },
+            {
+                "word": "麼",
+                "position": 14
+            },
+            {
+                "word": "可",
+                "position": 18
+            },
+            {
+                "word": "愛",
+                "position": 20
+            }
+        ]
+    }
+]

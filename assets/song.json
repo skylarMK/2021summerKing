@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "tips": "song1.png",
+        "haystack": [
+            "A.燉成湯",
+            "B.煮成粥",
+            "C.滷成肉"
+        ],
+        "needles": [
+            {
+                "word": "B.煮成粥",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tips": "song2.png",
+        "haystack": [
+            "A.崩潰的命令",
+            "B.崩壞的命定",
+            "C.崩塌的命運"
+        ],
+        "needles": [
+            {
+                "word": "C.崩塌的命運",
+                "position": 2
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tips": "song3.png",
+        "haystack": [
+            "A.無限循環",
+            "B.勇往直前",
+            "C.繼續前進"
+        ],
+        "needles": [
+            {
+                "word": "C.繼續前進",
+                "position": 2
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "tips": "song4.png",
+        "haystack": [
+            "A.惡作劇",
+            "B.鬼抓人",
+            "C.躲貓貓"
+        ],
+        "needles": [
+            {
+                "word": "A.惡作劇",
+                "position": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "tips": "song5.png",
+        "haystack": [
+            "A.畫了ㄧ個圓",
+            "B.兜了ㄧ個圈",
+            "C.繞了一個圈"
+        ],
+        "needles": [
+            {
+                "word": "B.兜了ㄧ個圈",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "tips": "song6.png",
+        "haystack": [
+            "A.蛤仔",
+            "B.蝦仔",
+            "C.魚仔"
+        ],
+        "needles": [
+            {
+                "word": "C.魚仔",
+                "position": 2
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "tips": "song7.png",
+        "haystack": [
+            "A.夫妻不能吵架",
+            "B.朋友不能牽手",
+            "C.兄弟不能鬩牆"
+        ],
+        "needles": [
+            {
+                "word": "B.朋友不能牽手",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "tips": "song8.png",
+        "haystack": [
+            "A.在等待一句我願意",
+            "B.在期待一句我愛你",
+            "C.在守候一句我等你"
+        ],
+        "needles": [
+            {
+                "word": "A.在等待一句我願意",
+                "position": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "tips": "song9.png",
+        "haystack": [
+            "A.人都善變",
+            "B.人都善良",
+            "C.人吃善存"
+        ],
+        "needles": [
+            {
+                "word": "A.人都善變",
+                "position": 0
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "tips": "song10.png",
+        "haystack": [
+            "A.真的會無所適從",
+            "B.才不會焦慮不安",
+            "C.還是會不知所措"
+        ],
+        "needles": [
+            {
+                "word": "C.還是會不知所措",
+                "position": 2
+            }
+        ]
+    }
+]

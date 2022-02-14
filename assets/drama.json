@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "tips": "drama1.png",
+        "haystack": [
+            "A.蘇林彩虹",
+            "B.蘇林彩香",
+            "C.蘇林彩色"
+        ],
+        "needles": [
+            {
+                "word": "B.蘇林彩香",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "tips": "drama2.png",
+        "haystack": [
+            "A.孟時代",
+            "B.孟婆湯",
+            "C.孟心語"
+        ],
+        "needles": [
+            {
+                "word": "C.孟心語",
+                "position": 2
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "tips": "drama3.png",
+        "haystack": [
+            "A.陳嘉玲",
+            "B.林志玲",
+            "C.劉嘉玲"
+        ],
+        "needles": [
+            {
+                "word": "A.陳嘉玲",
+                "position": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "tips": "drama4.png",
+        "haystack": [
+            "A.魔術師",
+            "B.馴獸師",
+            "C.大法師"
+        ],
+        "needles": [
+            {
+                "word": "A.魔術師",
+                "position": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "tips": "drama5.png",
+        "haystack": [
+            "A.杜老爺",
+            "B.杜柏謙",
+            "C.杜汶澤"
+        ],
+        "needles": [
+            {
+                "word": "B.杜柏謙",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "tips": "drama6.png",
+        "haystack": [
+            "A.徐熙娣",
+            "B.徐志摩",
+            "C.徐子伶"
+        ],
+        "needles": [
+            {
+                "word": "C.徐子伶",
+                "position": 2
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "tips": "drama7.png",
+        "haystack": [
+            "A.張智遠",
+            "B.張自遠",
+            "C.張志遠"
+        ],
+        "needles": [
+            {
+                "word": "C.張志遠",
+                "position": 2
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "tips": "drama8.png",
+        "haystack": [
+            "A.公冶小蔦",
+            "B.公報私仇",
+            "C.公子哥們"
+        ],
+        "needles": [
+            {
+                "word": "A.公冶小蔦",
+                "position": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "tips": "drama9.png",
+        "haystack": [
+            "A.昌哥",
+            "B.昌嫂",
+            "C.昌爸"
+        ],
+        "needles": [
+            {
+                "word": "B.昌嫂",
+                "position": 1
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "tips": "drama10.png",
+        "haystack": [
+            "A.阿順",
+            "B.阿祈",
+            "C.阿欽"
+        ],
+        "needles": [
+            {
+                "word": "B.阿祈",
+                "position": 1
+            }
+        ]
+    }
+]

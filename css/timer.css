@@ -1,0 +1,53 @@
+.timer {
+    animation: timer 1.0s ease;
+}
+
+.timer.running {
+    animation-play-state: running;
+}
+
+.timer.paused {
+    animation-play-state: paused;
+}
+
+.timer.iteration-3 {
+    animation-iteration-count: 3;
+    -webkit-animation-iteration-count: 3;
+    -moz-animation-iteration-count: 3;
+}
+
+.timer.iteration-5 {
+    animation-iteration-count: 5;
+    -webkit-animation-iteration-count: 5;
+    -moz-animation-iteration-count: 5;
+}
+
+.timer.iteration-10 {
+    animation-iteration-count: 10;
+    -webkit-animation-iteration-count: 10;
+    -moz-animation-iteration-count: 10;
+}
+
+.timer.iteration-15 {
+    animation-iteration-count: 15;
+    -webkit-animation-iteration-count: 15;
+    -moz-animation-iteration-count: 15;
+}
+
+.timer.iteration-30 {
+    animation-iteration-count: 30;
+    -webkit-animation-iteration-count: 30;
+    -moz-animation-iteration-count: 30;
+}
+
+@keyframes timer {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
